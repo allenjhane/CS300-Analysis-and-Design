@@ -1,0 +1,8 @@
+Analysis of the Run-time and Memory for the Data Structures:
+
+All the data structures will have the same run time when reading the data of the file, but input into the data structure will be hard. For a vector, each course will be 
+appended at the end of the vector and will virtually be O(1) time for data input into the data structure. This is because the data structure knows where to put it at the 
+end every time. For a hash table, after getting the hashed key for data input, it will be O(1) as well. This is because the data will have a specific place for it to go. 
+Even if there is already a data object at the given hash, the data will add it to the end or tail of the list. For a binary tree, the time of the tree to be created will 
+be based on the tree's height. This is because the tree needs to compare the leaves as the data goes down the branches. In a worst case scenario, the height of the tree 
+would be n heigh where it would have to add the data at an O(n) speed.
